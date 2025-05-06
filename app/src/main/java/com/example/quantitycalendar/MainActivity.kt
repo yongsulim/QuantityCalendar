@@ -18,6 +18,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        val db = AppDatabase.getDatabase(applicationContext)
+        val viewModel: MainViewModel by viewModels {
+            MainViewModelFactory(db.deliveryDao())
+        }
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
