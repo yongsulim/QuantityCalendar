@@ -55,6 +55,7 @@ dependencies {
 
     // Room DB
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1") // ✅ 코루틴 지원용 추가
     kapt("androidx.room:room-compiler:2.6.1")
 
     // ViewModel + LiveData
