@@ -39,6 +39,11 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
+    composeOptions {
+        // Compose Compiler 버전 명시
+        kotlinCompilerExtensionVersion = "1.5.10" // Kotlin 1.9.0과 호환
+    }
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
@@ -66,8 +71,8 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    // Jetpack Compose BOM 사용 추천
-    implementation(platform("androidx.compose:compose-bom:2024.01.00"))
+    // Compose BOM을 최신으로 유지
+    implementation(platform("androidx.compose:compose-bom:2024.05.00")) // 또는 최신 BOM으로 업그레이드
 
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.material3:material3") // 또는 material
