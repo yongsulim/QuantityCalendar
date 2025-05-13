@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-    id("kotlin-kapt")
+    kotlin("android") version "1.9.22" apply false
+    kotlin("kapt") version "1.9.22" apply false
 }
 
 android {
@@ -34,14 +34,13 @@ android {
         compose = true
     }
 
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.10"
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
-    }
-
-    composeOptions {
-        // Compose Compiler 버전 명시
-        kotlinCompilerExtensionVersion = "1.5.10" // Kotlin 1.9.0과 호환
     }
 
     kotlinOptions {
@@ -60,7 +59,7 @@ dependencies {
 
     // Room DB
     implementation("androidx.room:room-runtime:2.6.1")
-    implementation("androidx.room:room-ktx:2.6.1") // ✅ 코루틴 지원용 추가
+    implementation("androidx.room:room-ktx:2.6.1")
     kapt("androidx.room:room-compiler:2.6.1")
 
     // ViewModel + LiveData
@@ -71,11 +70,10 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    // Compose BOM을 최신으로 유지
-    implementation(platform("androidx.compose:compose-bom:2024.05.00")) // 또는 최신 BOM으로 업그레이드
-
+    // Jetpack Compose
+    implementation(platform("androidx.compose:compose-bom:2024.05.00"))
     implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.material3:material3") // 또는 material
+    implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.8.2")
