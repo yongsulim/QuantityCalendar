@@ -1,3 +1,5 @@
+// 앱의 메인 액티비티
+
 package com.example.deliverycalendar
 
 import androidx.appcompat.app.AppCompatActivity

@@ -1,3 +1,5 @@
+// 필요한 라이브러리들
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
