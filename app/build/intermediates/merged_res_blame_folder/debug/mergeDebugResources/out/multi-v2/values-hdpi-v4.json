@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.deliverycalendar.app-mergeDebugResources-29:/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "com.example.deliverycalendar.app-mergeDebugResources-19:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "/Users/solpapa/.gradle/caches/8.14.1/transforms/c4e46b41cfbf1beea28eb7794e3a25f3/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",

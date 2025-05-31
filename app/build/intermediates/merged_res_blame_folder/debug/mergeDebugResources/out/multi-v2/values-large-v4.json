@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.deliverycalendar.app-mergeDebugResources-29:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.deliverycalendar.app-mergeDebugResources-19:/values-large-v4/values-large-v4.xml",
             "map": [
-                {
-                    "source": "/Users/solpapa/.gradle/caches/8.14.1/transforms/17b90a35e1d94c0f569ae3e3fcb09487/transformed/material-1.11.0/res/values-large-v4/values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,169,285,407",
-                        "endColumns": "113,115,121,133",
-                        "endOffsets": "164,280,402,536"
-                    },
-                    "to": {
-                        "startLines": "11,12,13,14",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "752,866,982,1104",
-                        "endColumns": "113,115,121,133",
-                        "endOffsets": "861,977,1099,1233"
-                    }
-                },
                 {
                     "source": "/Users/solpapa/.gradle/caches/8.14.1/transforms/c4e46b41cfbf1beea28eb7794e3a25f3/transformed/appcompat-1.6.1/res/values-large-v4/values-large-v4.xml",
                     "from": {

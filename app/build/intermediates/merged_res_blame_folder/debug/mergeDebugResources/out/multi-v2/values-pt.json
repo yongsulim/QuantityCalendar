@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.deliverycalendar.app-mergeDebugResources-29:/values-pt/values-pt.xml",
+            "outputFile": "com.example.deliverycalendar.app-mergeDebugResources-19:/values-pt/values-pt.xml",
             "map": [
                 {
                     "source": "/Users/solpapa/.gradle/caches/8.14.1/transforms/7e94c4e4873bdb97391de999810e38c2/transformed/core-1.12.0/res/values-pt/values-pt.xml",
