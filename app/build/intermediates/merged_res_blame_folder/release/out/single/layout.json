@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.quantitycalendar.app-mergeReleaseResources-55:/layout/calendar_month_header_layout.xml",
+        "source": "com.example.quantitycalendar.app-main-57:/layout/calendar_month_header_layout.xml"
+    },
+    {
+        "merged": "com.example.quantitycalendar.app-mergeReleaseResources-55:/layout/calendar_day_layout.xml",
+        "source": "com.example.quantitycalendar.app-main-57:/layout/calendar_day_layout.xml"
+    },
+    {
+        "merged": "com.example.quantitycalendar.app-mergeReleaseResources-55:/layout/activity_main.xml",
+        "source": "com.example.quantitycalendar.app-main-57:/layout/activity_main.xml"
+    }
+]

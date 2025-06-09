@@ -1,0 +1,382 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.databinding:viewbinding:8.2.2] /Users/solpapa/.gradle/caches/8.14.1/transforms/5949135f68a21d0522ef7cf60c60c7b9/transformed/viewbinding-8.2.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0c9dc970d6054bc0baee3e474669ed65/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/bb18ca6165a650f9e0d424db11b5c1d3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/08123aba827418c9552884487dc4fc4a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/9087d75fee82f59f8fe7f247ca26c572/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.kizitonwose.CalendarView:view:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/67b55cf52ed9bd71460ad72f2289971b/transformed/view-2.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/eea075bdb3236c29dc70b5bb56f548eb/transformed/recyclerview-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/solpapa/.gradle/caches/8.14.1/transforms/0c733de79229e8041efdda22e7ca1df6/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/solpapa/.gradle/caches/8.14.1/transforms/16f1a399d77b46d944836dc974a71fe7/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.kizitonwose.CalendarView:compose:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6e6358db726cf4272607d75d56fd2b30/transformed/compose-2.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/efbea1cfdbceca7b1e2ef8e1c748893d/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/aacf75b4538d7b59efe1af901dd5d5a8/transformed/material-ripple-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/1c556d8dc3328a7c234b01e6662f8f82/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f2bdfd7dd697109b02b88eb2d259dae/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/fc92d9a5f719807700b749c9cc580202/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/6659104224d1cca93cc1198e40bd79ba/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/5e9f3dc3f153415431b6073e8ae58a36/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/c7da87c87abf46a43e8c0b0e0bd8f31e/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/d6ba76fcf848e15de0359d1adaad6539/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/cf0fc7466e32d16e4219442bf56c8114/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/99019f3294d2dcd612368fb9ee4f6ee4/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd29e164737a13dd6e2d16c25fa46329/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/c11aa564e0ecc765f1f4e66389c64c90/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/4374766a43ce2e397ce1aa1cd30c0543/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity-compose:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/14c525bbdc272d244284b31d4e0796a6/transformed/activity-compose-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/4cb2634cb2109838ca98d38519d95dfe/transformed/material-icons-core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/caeb9299dbb4d25ba5997c954dcb9d55/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/63e6bf24d503892f5fb0796a58cd1f48/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/f6ce9650af90f239c2684b28b1d09a24/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/9d3d7246ebd49152ccf206b5f1c8a547/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/489fc25e1e5ed8dbc01a6858346dcde7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/850c4827978c2c6106cc618b6818dda4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/2b82c0522babb1934cbe53e9aaca92a4/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/f71880a97f444575bd7a652ceae970a0/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0ed9a49eace8eb9476b6fada355c4eec/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/d919cfa42d4c0bb1104351726804af91/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/6942871559c4f7fad0822b46523bfe02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/a3932bd8d5899e4029cd0ce4a80ce56a/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/be32548c381f10796a6f4efc4815a93a/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/2d93ada72a8dbd4bda22d2a01e221f69/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/a2914e260f3301bca24238817ff14539/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/046a358e32d4aa21d8785d18a30f1c71/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/500686b10da397a31b077f3a79fd6dfe/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/ff620b2e01b4299454dfdce9e652293f/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6aed2bde76e14c294015175bced4650e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/4cfc18085c6fe3ab62ae5097a7d4abc9/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/2b8ebeb3f5262fe1c63f6670c3ca2470/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/3ae0699543cff0201f12c4e39a49712c/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/b54c2a623e53c0f0d63b6e0e1801689a/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/49eae23a43bff4947b38dc0b34db6125/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/13675c3057470434b68e27883ffeb146/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/07c084cb8de89cab53607ae091513983/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/9cea4394c3b1d7a78b842cc3601dcab2/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.kizitonwose.CalendarView:data:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6ca9bd7c6a5cd14a64bd1c7e758f8513/transformed/data-2.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.kizitonwose.CalendarView:core:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/c7cd8a5d3f86e10ed42dc25ad745491f/transformed/core-2.4.1/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/2e01ed5bb81df22ac9c52d950128a38f/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/0ee3b0f5217914487fad7a591748d69e/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/757ce732839ede4aace948efaf903b76/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/421cdbf925bc0cf511ee2a46a3df7174/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/50cddd443c7a48d9ee0b5a6c16946fd1/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/23e2401c9871eb0cadc6cb0ae45afbfe/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/f13a495c0597bfab3000e1425c28b3f0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/ee341121e73bbe2dcbbc7d61e37778de/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/c992fcabb947bfa731a9ead3ec030744/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/c27ad3a620642b41941da4f0ac1e6fce/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/4fbde20dfbd3c3d08a638b8aeb538e5c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/1c89c014290ac74d7eb421c4197f7a33/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:4:5-17:19
+INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:4:5-17:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0c9dc970d6054bc0baee3e474669ed65/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0c9dc970d6054bc0baee3e474669ed65/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/bb18ca6165a650f9e0d424db11b5c1d3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/bb18ca6165a650f9e0d424db11b5c1d3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/4374766a43ce2e397ce1aa1cd30c0543/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/4374766a43ce2e397ce1aa1cd30c0543/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/23e2401c9871eb0cadc6cb0ae45afbfe/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/23e2401c9871eb0cadc6cb0ae45afbfe/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/f13a495c0597bfab3000e1425c28b3f0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/f13a495c0597bfab3000e1425c28b3f0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:7:9-35
+	android:label
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:6:9-41
+	android:allowBackup
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:8:9-54
+activity#com.example.quantitycalendar.MainActivity
+ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:9:9-16:20
+	android:exported
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:10:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:12:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml
+INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.2] /Users/solpapa/.gradle/caches/8.14.1/transforms/5949135f68a21d0522ef7cf60c60c7b9/transformed/viewbinding-8.2.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] /Users/solpapa/.gradle/caches/8.14.1/transforms/5949135f68a21d0522ef7cf60c60c7b9/transformed/viewbinding-8.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0c9dc970d6054bc0baee3e474669ed65/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0c9dc970d6054bc0baee3e474669ed65/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/bb18ca6165a650f9e0d424db11b5c1d3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/bb18ca6165a650f9e0d424db11b5c1d3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/08123aba827418c9552884487dc4fc4a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/08123aba827418c9552884487dc4fc4a/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/9087d75fee82f59f8fe7f247ca26c572/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/9087d75fee82f59f8fe7f247ca26c572/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.kizitonwose.CalendarView:view:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/67b55cf52ed9bd71460ad72f2289971b/transformed/view-2.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.github.kizitonwose.CalendarView:view:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/67b55cf52ed9bd71460ad72f2289971b/transformed/view-2.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/eea075bdb3236c29dc70b5bb56f548eb/transformed/recyclerview-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/eea075bdb3236c29dc70b5bb56f548eb/transformed/recyclerview-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/solpapa/.gradle/caches/8.14.1/transforms/0c733de79229e8041efdda22e7ca1df6/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/solpapa/.gradle/caches/8.14.1/transforms/0c733de79229e8041efdda22e7ca1df6/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/solpapa/.gradle/caches/8.14.1/transforms/16f1a399d77b46d944836dc974a71fe7/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/solpapa/.gradle/caches/8.14.1/transforms/16f1a399d77b46d944836dc974a71fe7/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.kizitonwose.CalendarView:compose:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6e6358db726cf4272607d75d56fd2b30/transformed/compose-2.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.github.kizitonwose.CalendarView:compose:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6e6358db726cf4272607d75d56fd2b30/transformed/compose-2.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/efbea1cfdbceca7b1e2ef8e1c748893d/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/efbea1cfdbceca7b1e2ef8e1c748893d/transformed/material-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/aacf75b4538d7b59efe1af901dd5d5a8/transformed/material-ripple-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/aacf75b4538d7b59efe1af901dd5d5a8/transformed/material-ripple-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/1c556d8dc3328a7c234b01e6662f8f82/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/1c556d8dc3328a7c234b01e6662f8f82/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f2bdfd7dd697109b02b88eb2d259dae/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f2bdfd7dd697109b02b88eb2d259dae/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/fc92d9a5f719807700b749c9cc580202/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/fc92d9a5f719807700b749c9cc580202/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/6659104224d1cca93cc1198e40bd79ba/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/6659104224d1cca93cc1198e40bd79ba/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/5e9f3dc3f153415431b6073e8ae58a36/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/5e9f3dc3f153415431b6073e8ae58a36/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/c7da87c87abf46a43e8c0b0e0bd8f31e/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/c7da87c87abf46a43e8c0b0e0bd8f31e/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/d6ba76fcf848e15de0359d1adaad6539/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/d6ba76fcf848e15de0359d1adaad6539/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/cf0fc7466e32d16e4219442bf56c8114/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/cf0fc7466e32d16e4219442bf56c8114/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/99019f3294d2dcd612368fb9ee4f6ee4/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/99019f3294d2dcd612368fb9ee4f6ee4/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd29e164737a13dd6e2d16c25fa46329/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd29e164737a13dd6e2d16c25fa46329/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/c11aa564e0ecc765f1f4e66389c64c90/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/c11aa564e0ecc765f1f4e66389c64c90/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/4374766a43ce2e397ce1aa1cd30c0543/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/4374766a43ce2e397ce1aa1cd30c0543/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/14c525bbdc272d244284b31d4e0796a6/transformed/activity-compose-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/14c525bbdc272d244284b31d4e0796a6/transformed/activity-compose-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/4cb2634cb2109838ca98d38519d95dfe/transformed/material-icons-core-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/4cb2634cb2109838ca98d38519d95dfe/transformed/material-icons-core-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/caeb9299dbb4d25ba5997c954dcb9d55/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/caeb9299dbb4d25ba5997c954dcb9d55/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/63e6bf24d503892f5fb0796a58cd1f48/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/63e6bf24d503892f5fb0796a58cd1f48/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/f6ce9650af90f239c2684b28b1d09a24/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/f6ce9650af90f239c2684b28b1d09a24/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/9d3d7246ebd49152ccf206b5f1c8a547/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/9d3d7246ebd49152ccf206b5f1c8a547/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/489fc25e1e5ed8dbc01a6858346dcde7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/489fc25e1e5ed8dbc01a6858346dcde7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/850c4827978c2c6106cc618b6818dda4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/850c4827978c2c6106cc618b6818dda4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/2b82c0522babb1934cbe53e9aaca92a4/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/2b82c0522babb1934cbe53e9aaca92a4/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/f71880a97f444575bd7a652ceae970a0/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/f71880a97f444575bd7a652ceae970a0/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0ed9a49eace8eb9476b6fada355c4eec/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0ed9a49eace8eb9476b6fada355c4eec/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/d919cfa42d4c0bb1104351726804af91/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/d919cfa42d4c0bb1104351726804af91/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/6942871559c4f7fad0822b46523bfe02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/6942871559c4f7fad0822b46523bfe02/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/a3932bd8d5899e4029cd0ce4a80ce56a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/a3932bd8d5899e4029cd0ce4a80ce56a/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/be32548c381f10796a6f4efc4815a93a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/be32548c381f10796a6f4efc4815a93a/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/2d93ada72a8dbd4bda22d2a01e221f69/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/2d93ada72a8dbd4bda22d2a01e221f69/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/a2914e260f3301bca24238817ff14539/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/a2914e260f3301bca24238817ff14539/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/046a358e32d4aa21d8785d18a30f1c71/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/046a358e32d4aa21d8785d18a30f1c71/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/500686b10da397a31b077f3a79fd6dfe/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/500686b10da397a31b077f3a79fd6dfe/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/ff620b2e01b4299454dfdce9e652293f/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/ff620b2e01b4299454dfdce9e652293f/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6aed2bde76e14c294015175bced4650e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6aed2bde76e14c294015175bced4650e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/4cfc18085c6fe3ab62ae5097a7d4abc9/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/4cfc18085c6fe3ab62ae5097a7d4abc9/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/2b8ebeb3f5262fe1c63f6670c3ca2470/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/2b8ebeb3f5262fe1c63f6670c3ca2470/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/3ae0699543cff0201f12c4e39a49712c/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/3ae0699543cff0201f12c4e39a49712c/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/b54c2a623e53c0f0d63b6e0e1801689a/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/b54c2a623e53c0f0d63b6e0e1801689a/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/49eae23a43bff4947b38dc0b34db6125/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/49eae23a43bff4947b38dc0b34db6125/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/13675c3057470434b68e27883ffeb146/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/13675c3057470434b68e27883ffeb146/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/07c084cb8de89cab53607ae091513983/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/07c084cb8de89cab53607ae091513983/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/9cea4394c3b1d7a78b842cc3601dcab2/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/9cea4394c3b1d7a78b842cc3601dcab2/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.kizitonwose.CalendarView:data:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6ca9bd7c6a5cd14a64bd1c7e758f8513/transformed/data-2.4.1/AndroidManifest.xml:5:5-43
+MERGED from [com.github.kizitonwose.CalendarView:data:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/6ca9bd7c6a5cd14a64bd1c7e758f8513/transformed/data-2.4.1/AndroidManifest.xml:5:5-43
+MERGED from [com.github.kizitonwose.CalendarView:core:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/c7cd8a5d3f86e10ed42dc25ad745491f/transformed/core-2.4.1/AndroidManifest.xml:9:5-11:60
+MERGED from [com.github.kizitonwose.CalendarView:core:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/c7cd8a5d3f86e10ed42dc25ad745491f/transformed/core-2.4.1/AndroidManifest.xml:9:5-11:60
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/2e01ed5bb81df22ac9c52d950128a38f/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/2e01ed5bb81df22ac9c52d950128a38f/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/0ee3b0f5217914487fad7a591748d69e/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/0ee3b0f5217914487fad7a591748d69e/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/757ce732839ede4aace948efaf903b76/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/757ce732839ede4aace948efaf903b76/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/421cdbf925bc0cf511ee2a46a3df7174/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/421cdbf925bc0cf511ee2a46a3df7174/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/50cddd443c7a48d9ee0b5a6c16946fd1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/50cddd443c7a48d9ee0b5a6c16946fd1/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/23e2401c9871eb0cadc6cb0ae45afbfe/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/23e2401c9871eb0cadc6cb0ae45afbfe/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/f13a495c0597bfab3000e1425c28b3f0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/f13a495c0597bfab3000e1425c28b3f0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/ee341121e73bbe2dcbbc7d61e37778de/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/ee341121e73bbe2dcbbc7d61e37778de/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/c992fcabb947bfa731a9ead3ec030744/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/c992fcabb947bfa731a9ead3ec030744/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/c27ad3a620642b41941da4f0ac1e6fce/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/c27ad3a620642b41941da4f0ac1e6fce/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/4fbde20dfbd3c3d08a638b8aeb538e5c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/4fbde20dfbd3c3d08a638b8aeb538e5c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/1c89c014290ac74d7eb421c4197f7a33/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/1c89c014290ac74d7eb421c4197f7a33/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.github.kizitonwose.CalendarView:core:2.4.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/c7cd8a5d3f86e10ed42dc25ad745491f/transformed/core-2.4.1/AndroidManifest.xml:11:9-57
+	android:targetSdkVersion
+		INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/4374766a43ce2e397ce1aa1cd30c0543/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/4374766a43ce2e397ce1aa1cd30c0543/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/solpapa/.gradle/caches/8.14.1/transforms/4374766a43ce2e397ce1aa1cd30c0543/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/f13a495c0597bfab3000e1425c28b3f0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/f13a495c0597bfab3000e1425c28b3f0/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/660030531bdb600cf6b485e01dcd441f/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.example.quantitycalendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.quantitycalendar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/fd9eef7986e0bba8ed6df4729bcb7beb/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/solpapa/.gradle/caches/8.14.1/transforms/691a39c4a8e61a62787e4da138e0f009/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/solpapa/.gradle/caches/8.14.1/transforms/0f706a63bdfcf8884a256ca465d9d631/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
