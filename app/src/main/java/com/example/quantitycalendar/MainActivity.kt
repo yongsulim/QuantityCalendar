@@ -85,6 +85,17 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
+<<<<<<< HEAD
+=======
+            monthHeaderBinder = object : com.kizitonwose.calendar.view.MonthHeaderFooterBinder<MonthHeaderContainer> {
+                override fun create(view: View) = MonthHeaderContainer(view)
+                override fun bind(container: MonthHeaderContainer, data: com.kizitonwose.calendar.core.CalendarMonth) {
+                    // `calendar_month_header_layout.xml`에는 동적으로 바인딩할 텍스트 뷰가 없으므로,
+                    // 여기서는 추가적인 작업이 필요하지 않습니다.
+                }
+            }
+
+>>>>>>> 426dc18 (Run Start)
             monthScrollListener = { month ->
                 title = "${month.yearMonth.year}년 ${month.yearMonth.monthValue}월"
             }
