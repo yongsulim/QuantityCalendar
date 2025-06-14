@@ -1,6 +1,15 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color dark_background
+color dark_primary_color
+color dark_primary_variant_color
+color dark_secondary_color
+color dark_text_color
+color day_text_color
+color day_text_other_month_color
+color day_text_weekend_saturday
+color day_text_weekend_sunday
 color purple_200
 color purple_500
 color purple_700
@@ -8,6 +17,7 @@ color teal_200
 color teal_700
 color white
 drawable selected_day_background
+id action_toggle_theme
 id addDeliveryButton
 id calendarDayText
 id calendarView
@@ -15,5 +25,6 @@ id selectedView
 layout activity_main
 layout calendar_day_layout
 layout calendar_month_header_layout
+menu main_menu
 string app_name
 style Theme.QuantityCalendar

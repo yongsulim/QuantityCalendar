@@ -1,0 +1,6 @@
+-keep class javax.xml.stream.** { *; }
+-keep interface javax.xml.stream.** { *; }
+-keep class com.fasterxml.woodstox.** { *; }
+-keep interface com.fasterxml.woodstox.** { *; }
+-keep class org.codehaus.woodstox.** { *; }
+-keep interface org.codehaus.woodstox.** { *; } 

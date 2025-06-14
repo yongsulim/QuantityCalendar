@@ -3,32 +3,32 @@
 3    package="com.example.quantitycalendar.test" >
 4
 5    <uses-sdk
-5-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:5:5-74
+5-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:5:5-74
 6        android:minSdkVersion="26"
-6-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:5:15-41
+6-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:5:42-71
+7-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:11:5-15:78
+9-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:11:5-15:78
 10        android:name="android.test.InstrumentationTestRunner"
-10-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:11:22-75
+10-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:11:22-75
 11        android:functionalTest="false"
-11-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:14:22-52
+11-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:13:22-53
+12-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:13:22-53
 13        android:label="Tests for com.example.quantitycalendar"
-13-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:15:22-76
+13-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:15:22-76
 14        android:targetPackage="com.example.quantitycalendar" />
-14-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:12:22-74
+14-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:12:22-74
 15
 16    <application
-16-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:7:5-9:19
+16-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:7:5-9:19
 17        android:debuggable="true"
 18        android:extractNativeLibs="false" >
 19        <uses-library android:name="android.test.runner" />
-19-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:8:9-60
-19-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9620689244156211119.xml:8:23-57
+19-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:8:9-60
+19-->/Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest10599947542121520885.xml:8:23-57
 20    </application>
 21
 22</manifest>

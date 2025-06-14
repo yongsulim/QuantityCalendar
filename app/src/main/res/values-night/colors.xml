@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Colors -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#FFFFFF</color> <!-- In dark mode, black text becomes white -->
+    <color name="white">#121212</color> <!-- In dark mode, white background becomes dark grey -->
+
+    <!-- Custom colors for dark mode -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_text_color">#FFFFFF</color>
+    <color name="dark_primary_color">#BB86FC</color>
+    <color name="dark_primary_variant_color">#3700B3</color>
+    <color name="dark_secondary_color">#03DAC5</color>
+
+    <!-- Custom colors for calendar day text in dark mode -->
+    <color name="day_text_color">#FFFFFF</color> <!-- White for normal days -->
+    <color name="day_text_other_month_color">#AAAAAA</color> <!-- Light gray for other month days -->
+    <color name="day_text_weekend_saturday">#ADD8E6</color> <!-- Light blue for Saturdays -->
+    <color name="day_text_weekend_sunday">#FFFF0000</color> <!-- Strong Red for Sundays -->
+</resources> 

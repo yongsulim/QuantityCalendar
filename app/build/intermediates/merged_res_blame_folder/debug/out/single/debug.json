@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.quantitycalendar.app-merged_res-56:/menu_main_menu.xml.flat",
+        "source": "com.example.quantitycalendar.app-main-58:/menu/main_menu.xml"
+    },
+    {
         "merged": "com.example.quantitycalendar.app-merged_res-56:/layout_calendar_day_layout.xml.flat",
         "source": "com.example.quantitycalendar.app-main-58:/layout/calendar_day_layout.xml"
     },

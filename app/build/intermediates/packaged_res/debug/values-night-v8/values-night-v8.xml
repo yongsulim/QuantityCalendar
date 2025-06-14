@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFF</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_primary_color">#BB86FC</color>
+    <color name="dark_primary_variant_color">#3700B3</color>
+    <color name="dark_secondary_color">#03DAC5</color>
+    <color name="dark_text_color">#FFFFFF</color>
+    <color name="day_text_color">#FFFFFF</color>
+    <color name="day_text_other_month_color">#AAAAAA</color>
+    <color name="day_text_weekend_saturday">#ADD8E6</color>
+    <color name="day_text_weekend_sunday">#FFFF0000</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="white">#121212</color>
+    <style name="Theme.QuantityCalendar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item> 
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item> 
+
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

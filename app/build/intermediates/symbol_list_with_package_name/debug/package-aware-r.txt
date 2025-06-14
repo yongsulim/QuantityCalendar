@@ -1380,6 +1380,15 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color dark_background
+color dark_primary_color
+color dark_primary_variant_color
+color dark_secondary_color
+color dark_text_color
+color day_text_color
+color day_text_other_month_color
+color day_text_weekend_saturday
+color day_text_weekend_sunday
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -3163,6 +3172,7 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_text
+id action_toggle_theme
 id actions
 id activity_chooser_view_content
 id add
@@ -3806,6 +3816,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu main_menu
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

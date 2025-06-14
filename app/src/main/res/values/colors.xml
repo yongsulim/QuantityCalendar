@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Custom colors for calendar day text in light mode -->
+    <color name="day_text_color">#FF000000</color> <!-- Black for normal days -->
+    <color name="day_text_other_month_color">#808080</color> <!-- Dark gray for other month days -->
+    <color name="day_text_weekend_saturday">#0000FF</color> <!-- Blue for Saturdays -->
+    <color name="day_text_weekend_sunday">#FFFF0000</color> <!-- Strong Red for Sundays -->
 </resources> 

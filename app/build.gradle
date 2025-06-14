@@ -13,6 +13,7 @@ android {
         targetSdk 34
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -25,6 +26,7 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
+        coreLibraryDesugaringEnabled true
     }
     
     kotlinOptions {
@@ -46,4 +48,24 @@ dependencies {
     implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.github.kizitonwose:CalendarView:2.4.1'
+
+    // Retrofit for network calls
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-jackson:2.9.0'
+
+    // Jackson dependencies - ensure consistent version
+    implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.18.1'
+    implementation ('com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.18.1') {
+        // Exclude stax-api to prevent potential conflicts with Android's (incomplete) javax.xml.stream
+        // or other transitive dependencies that might bring an incompatible stax-api.
+        exclude group: 'javax.xml.stream', module: 'stax-api'
+        exclude group: 'org.codehaus.woodstox', module: 'stax2-api' // Exclude this too, we will explicitly add woodstox-core
+    }
+
+    // Explicitly add woodstox-core which contains a full StAX implementation for compatibility
+    // with jackson-dataformat-xml and Android. woodstox-core includes stax2-api.
+    implementation 'com.fasterxml.woodstox:woodstox-core:6.5.0'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
 } 
