@@ -6,7 +6,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface HolidayApiService {
-    @GET("getHoliDeInfo")
+    @GET("SpcdeInfoService/getRestDeInfo")
     suspend fun getHolidays(
         @Query("ServiceKey", encoded = true) serviceKey: String,
         @Query("solYear") solYear: Int,

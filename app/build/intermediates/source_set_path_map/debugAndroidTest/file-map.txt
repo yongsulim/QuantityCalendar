@@ -1,4 +1,0 @@
-com.example.quantitycalendar.test.app-androidTest-0 /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/generated/res/resValues/androidTest/debug
-com.example.quantitycalendar.test.app-mergeDebugAndroidTestResources-1 /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.example.quantitycalendar.test.app-mergeDebugAndroidTestResources-2 /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.example.quantitycalendar.test.app-merged_res-3 /Users/solpapa/Desktop/Re_start/QuantityCalendar/app/build/intermediates/merged_res/debugAndroidTest

@@ -19,6 +19,7 @@ import androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_YES
 import android.view.Menu
 import android.view.MenuItem
 import android.content.res.Configuration
+import android.util.Log
 
 import com.example.quantitycalendar.api.HolidayApiService
 import com.example.quantitycalendar.model.HolidayItem
@@ -33,8 +34,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.util.concurrent.Executors
-import com.fasterxml.woodstox.WstxInputFactory
-import com.fasterxml.woodstox.WstxOutputFactory
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -42,10 +41,10 @@ class MainActivity : AppCompatActivity() {
     private val holidays = mutableMapOf<LocalDate, HolidayItem>()
 
     companion object {
-        private const val BASE_URL = "http://apis.data.go.kr/B090041/openapi/service/SpcdeInfo/"
+        private const val BASE_URL = "http://apis.data.go.kr/B090041/openapi/service/"
         private const val SERVICE_KEY = "vadVqUFa6685ZGne6KMnuX7bg2E%2Bpi7omEguo3UKao7II4nTqAE9PFW5TgUaWUo12oMmVWAJuFXNmtw%2Fe4HEZw%3D%3D"
 
-        private val xmlMapper = XmlMapper(WstxInputFactory(), WstxOutputFactory()).apply {
+        private val xmlMapper = XmlMapper().apply {
             enable(SerializationFeature.INDENT_OUTPUT)
             registerKotlinModule()
         }
@@ -220,13 +219,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun fetchHolidays(year: Int, month: Int) {
-        val monthString = String.format("%02d", month) // 월을 두 자리 숫자로 포맷 (예: 1 -> 01)
+        val monthString = String.format("%02d", month)
         CoroutineScope(Dispatchers.IO).launch {
             try {
                 val response = holidayApiService.getHolidays(SERVICE_KEY, year, monthString)
+
                 if (response.isSuccessful) {
                     val holidayResponse = response.body()
                     holidayResponse?.body?.items?.item?.let { holidayList ->
+                        Log.d("HolidayFetch", "Parsed HolidayList: $holidayList")
                         // 기존 공휴일 데이터를 해당 월에 대해 초기화
                         holidays.entries.removeAll { it.key.monthValue == month && it.key.year == year }
                         holidayList.forEach { holidayItem ->
@@ -244,13 +245,14 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                 } else {
-                    // 에러 응답 처리
                     val errorBody = response.errorBody()?.string()
+                    Log.e("HolidayFetch", "API Error: $errorBody")
                     withContext(Dispatchers.Main) {
                         Toast.makeText(this@MainActivity, "공휴일 정보 로드 실패: $errorBody", Toast.LENGTH_LONG).show()
                     }
                 }
             } catch (e: Exception) {
+                Log.e("HolidayFetch", "Error during API call: ${e.message}", e)
                 withContext(Dispatchers.Main) {
                     Toast.makeText(this@MainActivity, "공휴일 정보 로드 중 오류 발생: ${e.message}", Toast.LENGTH_LONG).show()
                 }
